@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja MULTIELETRONICOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="front-end_2A_2T_23_Matheus.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Loja MULTIELETRONICOS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner Promocional -->
+        <section id="banner">
+            <div class="container">
+                <h2>Promoções Imperdíveis de Verão</h2>
+                <p>Até 50% de desconto em eletrônicos selecionados</p>
+                <a href="#produtos" class="btn-banner">Veja Mais</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre-nos" class="info-section">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma loja especializada em multieletrônicos, oferecendo uma vasta gama de produtos tecnológicos de alta qualidade e preços acessíveis. Nosso compromisso é proporcionar a melhor experiência de compra online para nossos clientes.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Produtos -->
+        <section id="produtos" class="product-section">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                
+                <!-- Produto 1 -->
+                <article class="product-card">
+                    <img src="ventilador.jpg" alt="Ventilador Portátil" class="product-image">
+                    <h3>Ventilador Portátil Com Iluminação Umidificador Climatizador</h3>
+                    <p>Experimente o alívio imediato do calor com o Mini Ventilador Portátil Umidificador de Ar Condicionado LED.</p>
+                    <p class="price"><strong>Preço:</strong> R$100,00</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                </article>
+
+                <!-- Produto 2 -->
+                <article class="product-card">
+                    <img src="caixa termica.jpg" alt="Caixa Térmica" class="product-image">
+                    <h3>Caixa Térmica Soprano Preta 32 Litros</h3>
+                    <p>Capacidade para armazenar cerca de 50 latas de cerveja de 350ml, ideal para festas.</p>
+                    <p class="price"><strong>Preço:</strong> R$150,00</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                </article>
+
+                <!-- Produto 3 -->
+                <article class="product-card">
+                    <img src="smartphone.jpg" alt="Smartphone" class="product-image">
+                    <h3>Smartphone XYZ 128GB</h3>
+                    <p>Desempenho de alta qualidade com câmera avançada e armazenamento de 128GB.</p>
+                    <p class="price"><strong>Preço:</strong> R$1.200,00</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Carrinho -->
+        <section id="carrinho" class="cart-section">
+            <div class="container">
+                <h2>Carrinho de Compras</h2>
+                <ul id="carrinho-itens">
+                    <!-- Itens do carrinho aparecerão aqui -->
+                </ul>
+                <p id="total">Total: R$0,00</p>
+                <button class="btn btn-finalizar">Finalizar Compra</button>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco pelo email: <a href="mailto:contato@multieletronicos.com">contato@multieletronicos.com</a></p>
+                <p>Ou ligue para: (11) 1234-5678</p>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Loja MULTIELETRONICOS. Todos os direitos reservados.</p>
+            <p>Siga-nos:</p>
+            <ul class="social-media">
+                <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="instagram-icon.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

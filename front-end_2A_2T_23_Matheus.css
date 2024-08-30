@@ -1,0 +1,291 @@
+/* Estrutura básica e fontes */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0052cc;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+#banner {
+    background-color: #0073e6;
+    color: white;
+    padding: 3em 0;
+    text-align: center;
+}
+
+#banner h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#banner p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+.btn-banner {
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-banner:hover {
+    background-color: #e68a00;
+}
+
+/* Seções Informativas */
+.info-section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.product-section {
+    padding: 2em 0;
+    background-color: #ffffff;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    color: #0052cc;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0052cc;
+}
+
+/* Seção de Carrinho */
+.cart-section {
+    background-color: #ffffff;
+    padding: 2em 0;
+}
+
+.cart-section h2 {
+    color: #0052cc;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+#carrinho {
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+#carrinho h2 {
+    color: #0052cc;
+}
+
+#carrinho-itens {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+#carrinho-itens li {
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #333;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btn-finalizar {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.btn-finalizar:hover {
+    background-color: #e68a00;
+}
+
+/* Seção de Contato */
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 2em 0;
+}
+
+.contact-section h2 {
+    color: #0052cc;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact-section p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 8px;
+    color: #0052cc;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+form button {
+    background-color: #0073e6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0052cc;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003d99;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media li a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
