@@ -9,21 +9,36 @@
 </head>
 
 <body>
+    <!-- Menu lateral -->
+    <aside class="menu-lateral">
+        <h2>Categorias</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#frete-gratis">Frete Grátis</a></li>
+            <li><a href="#cupons">Cupons</a></li>
+            <li><a href="#carrinho">Carrinho</a></li>
+        </ul>
+    </aside>
+
+    <!-- Cabeçalho com barra de pesquisa -->
     <header>
-        <h1>Bem-vindo à Loja MULTIELETRONICOS</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#testemunhos">Testemunhos</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Loja MULTIELETRONICOS</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar produtos...">
+                <button class="search-button">🔍</button>
+            </div>
+            <div class="notificacoes">
+                <span class="badge">3</span>
+                🔔
+            </div>
+        </div>
     </header>
 
     <main>
+        <!-- Seções principais -->
         <section id="home">
             <h2>Sobre Nós</h2>
             <p>Somos uma loja especializada em multieletrônicos, oferecendo uma vasta gama de produtos tecnológicos de qualidade.</p>
@@ -31,68 +46,64 @@
 
         <section id="produtos">
             <h2>Nossos Produtos</h2>
-            <!-- Produto 1 -->
+            <!-- Produtos -->
             <article>
                 <img src="ventilador.jpg" alt="Ventilador Portátil" width="300">
                 <h3>Ventilador Portátil Com Iluminação Umidificador Climatizador</h3>
                 <p>Experimente o alívio imediato do calor com o Mini Ventilador Portátil Umidificador de Ar Condicionado LED.</p>
                 <p><strong>Preço:</strong> R$100,00</p>
-                <button>Comprar</button>
+                <button class="comprar-button">Comprar</button>
             </article>
 
-            <!-- Produto 2 -->
-            <article>
-                <img src="caixa termica.jpg" alt="Caixa Térmica" width="300">
-                <h3>Caixa Térmica Soprano Preta 32 Litros</h3>
-                <p>Capacidade para armazenar cerca de 50 latas de cerveja de 350ml, ideal para festas.</p>
-                <p><strong>Preço:</strong> R$150,00</p>
-                <button>Comprar</button>
-            </article>
-
-            <!-- Produto 3 -->
-            <article>
-                <img src="teus2049/front-end_recuper-o2T_23_Matheus/smartphone.JPG" alt="Smartphone" width="300">
-                <h3>Smartphone XYZ 128GB</h3>
-                <p>Desempenho de alta qualidade com câmera avançada e armazenamento de 128GB.</p>
-                <p><strong>Preço:</strong> R$1.200,00</p>
-                <button>Comprar</button>
-            </article>
+            <!-- Mais produtos aqui -->
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco pelo email: <a href="mailto:contato@multieletronicos.com">contato@multieletronicos.com</a></p>
-            <p>Ou ligue para: (11) 1234-5678</p>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem"></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
+        <!-- Seção de Frete Grátis -->
+        <section id="frete-gratis">
+            <h2>Frete Grátis</h2>
+            <p>Compre acima de R$200 e ganhe frete grátis para todo o Brasil!</p>
         </section>
 
-        <section id="faq">
-            <h2>FAQ</h2>
-            <p>Encontre respostas para as perguntas mais frequentes.</p>
+        <!-- Seção de Cupons -->
+        <section id="cupons">
+            <h2>Cupons de Desconto</h2>
+            <p>Ganhe cupons exclusivos após cada compra. Acumule e economize em suas próximas compras!</p>
         </section>
 
-        <section id="testemunhos">
-            <h2>O que dizem nossos clientes</h2>
-            <p>"Produto excelente, super recomendo!" - João</p>
-            <p>"Atendimento rápido e eficiente!" - Maria</p>
+        <!-- Carrinho de Compras -->
+        <section id="carrinho">
+            <h2>Seu Carrinho</h2>
+            <p>Você tem 3 itens no seu carrinho.</p>
+            <p>Total: R$350,00</p>
+            <button class="comprar-button">Finalizar Compra</button>
+        </section>
+
+        <!-- Seção de vídeo/gif -->
+        <section id="video">
+            <h2>Conheça Mais Sobre Nossos Produtos</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/seu_video_id" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
         </section>
     </main>
 
+    <!-- Rodapé rotativo -->
     <footer>
+        <div class="rotating-footer">
+            <img src="promo1.jpg" alt="Promoção 1">
+            <img src="promo2.jpg" alt="Promoção 2">
+            <img src="promo3.jpg" alt="Promoção 3">
+        </div>
         <p><strong>&copy; 2024 Loja MULTIELETRONICOS. Todos os direitos reservados.</strong></p>
-        <p>Nosso compromisso é com sua satisfação. Visite-nos regularmente para novidades e ofertas exclusivas!</p>
+        <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
     </footer>
-</body>
 
-</html>
+    <!-- Rodapé adicional com transições -->
+    <div class="fixed-footer">
+        <p>Volte sempre! <span>Descontos exclusivos em breve!</span></p>
+    </div>
+
+</
